@@ -149,7 +149,7 @@ i{
 .notify p{
     padding-top: 10px;
     font-size: medium;
-    font-weight: bolder;
+    font-weight: bold;
     color: rgb(0, 0, 0);
 
 }
@@ -194,7 +194,26 @@ i{
     color: #01060c;
     
 }
+/* Footer */
 
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #a9c7ea;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.all-right{
+    text-align: center;
+    background-color:  rgba(71,71,186,0.804);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(194, 186, 186);
+}
 
 
 
@@ -287,12 +306,35 @@ i{
     background-color: transparent;
 
 }
+.smart-watches{
+    display: grid;
+  grid-template-columns: 30% 30%  ;
+    justify-content: space-around;
+}
+.smart-watches div{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    padding: 10px 10px;
+
+}
+.smart-watches  div img{
+       width: 100%;
+       height: 190px;
 
 
+}
 
 
-
-
+.smart-watches p{
+    text-align: center;
+    font-size: 15px;
+}
+footer{
+    margin-top: 50px;
+}
 
 
 
@@ -346,14 +388,15 @@ input{
 }
 .categories h2{
     font-size: 7px;
-    padding:2px ;
+    padding:2px;
+    
     margin-top: 2px;
 
 }
 
 .categories  ul li {
-    padding: 1px 0;
-    font-size: 1vh;
+   padding: 0 0;
+    font-size: 0.9vh;
  
 }
 
@@ -406,8 +449,9 @@ input{
 
 }
 .laptops .notify p{
-    padding-top: 3px;
-    font-size: 2vh;
+    padding-top: 1px;
+    font-size: -1vh;
+    font-weight: 400;
 
 }
 .laptops h4{
@@ -417,8 +461,39 @@ input{
     padding-bottom: 10px;
 
 }
+#watches-heading{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 20px 20px;
+    font-size: 2.5vh;
+
+}
+.smart-watches{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: space-around;
 
 
+}
+
+.smart-watches div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 250px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.smart-watches div img{
+    width: 150px;
+    height: 150px;
+
+}
+.smart-watches p{
+    font-size: 2vh;
+}
 
 }
 
