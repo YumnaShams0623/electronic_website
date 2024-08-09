@@ -60,6 +60,8 @@ i{
 }
 .backround-images h2{
     z-index:2 ;
+    text-align: center;
+    font-size: 28px;
 }
 
 
@@ -89,6 +91,13 @@ i{
     .card img{
         padding-left: 7px;
 
+    }
+    .backround-images h2{
+        font-size: 18px;
+
+    }
+    .backround-images img{
+      width: 60px;
     }
 }
 
@@ -146,6 +155,19 @@ input{
  
 }
 
+.backround-images{
+    background-image:linear-gradient(rgba(0,0,0,0,)),url(./images/2.jpg);
+   background-size: cover;
+
+
+} 
+.backround-images h2{
+    font-size: 10px;
+
+}
+.backround-images img{
+    width: 40%;
+}
 
 
 
