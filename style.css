@@ -115,7 +115,7 @@ i{
 
 
 /* Small screen */
-@media (max-width:100px) {
+@media (max-width:1000px) {
     nav{
         height: 80px;
     }
@@ -145,8 +145,51 @@ i{
 
     }
     .backround-images img{
-      width: 60px;
+      width: 60%;
     }
+/*  Smart Phones*/
+#mob-heading{
+
+    margin-top: 80px;
+    margin-bottom:10px ;
+    padding: 10px 20px;
+    }
+    
+    .Mobiles{
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-around;
+        
+    }
+    .Mobiles div{
+        margin: 10px 0;
+        height:100%;
+        border: 1px solid #fafafa;
+
+    }
+    .Mobiles div img{
+        height: 90%;
+        width: 90%;
+
+    }
+    .Mobiles span p{
+
+       font-size: medium;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* mobile  */
@@ -214,7 +257,20 @@ input{
 
 }
 .backround-images img{
-    width: 40%;
+    width: 60%;
+}
+/* smart phone */
+#mob-heading{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0 20px;
+    font-size: 2.5vh;
+
+}
+.Mobiles{
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+
 }
 
 
@@ -254,11 +310,6 @@ input{
     text-decoration: none;
     color: black;
 
-}
-
-/*  Smart Phones*/
-#mob-heading{
-    
 }
 
 
