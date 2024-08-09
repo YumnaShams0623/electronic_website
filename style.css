@@ -112,12 +112,52 @@ i{
     margin-bottom: 10px;
     padding: 10px 20px;
 }
+.laptops{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-around;
+}
+.laptops div{
+    align-items: center;
+    background-color: #c8e6f6;
+    border: 1px solid #c8e6f6 ;
+    text-align: center;
+    color: black;
 
 
+}
+.laptops div img{
+    height: 160px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
 
+ .notify{
+    
+    width: 90px;
+    height: 40px;
+    padding: 0;
+    margin-top: 10px;
+    box-shadow: rgba(122, 17, 17, 0.35) 3px 10px 16px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
+.notify p{
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
 
+}
+.laptops h4{
+    padding-top: 5px ;
+    padding-bottom: 15px;
 
+}
 
 
 
@@ -193,7 +233,25 @@ i{
        font-size: medium;
 
     }
+/* laptopsssss */
+.laptops{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
 
+}
+.laptops div{
+    margin-bottom: 10px;
+}
+.laptops div img{
+    height: 170px;
+    width: 180px;
+    border-radius:5px ;
+    margin: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+
+}
 
 
 
@@ -289,7 +347,40 @@ input{
     justify-content: space-around;
 
 }
+/* LAPTOPS */
+#laptop-heading{
+    margin-top: 30px;
+    margin-bottom:0px ;
+    padding: 20px 20px;
+    font-size: 2.5vh;
 
+
+}
+
+.laptops{
+
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: space-around;
+
+}
+.laptops .notify{
+    width: 80px;
+    height: 20px;
+
+}
+.laptops .notify p{
+    padding-top: 3px;
+    font-size: 2vh;
+
+}
+.laptops h4{
+
+    font-size: 2vh;
+    padding-top: 3px;
+    padding-bottom: 10px;
+
+}
 
 
 
